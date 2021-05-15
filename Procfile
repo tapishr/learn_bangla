@@ -1,1 +1,1 @@
-web: gunicorn 
+web: gunicorn --chdir 'weblearner/' weblearner:app
