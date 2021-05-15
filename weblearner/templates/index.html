@@ -19,6 +19,7 @@
     <div class="col-md-4">
       <form method="POST" action="">
         {{ form.csrf_token }}
+        {{ form.score.label }} {{ form.score(size=50) }} <br/>
         {{ form.question.label }} {{ form.question(size=50) }} <br/>
         {{ form.answer.label }} {{ form.answer(cols="35", rows="1") }} <br/>
         <center>
